@@ -1,0 +1,58 @@
+
+<html>
+    
+        <head>
+                
+                <!-- <script src="jquery-3.3.1.js" type="test\javascript" ></script> -->
+                <script src="jquery-3.3.1.js" type="text/javascript" ></script>
+        
+        
+                 <script>   
+                    
+                   $(document).ready(function(){
+                    $("#shiv").click(function(){
+                        $("p").hide(); 
+                       
+                       
+                    });
+                    $("#leela").click(function(){
+                        $("p").show();  
+                      
+                       
+                    });
+                    $("#3").click(function(){
+                        $(".test").hide();  
+                       
+                    });
+                    $("#4").click(function(){
+                        $(".test").show();  
+                       
+                    });
+                    $("#5").click(function(){
+                        $("*").hide();  
+                       
+                    });
+                    $("#6").click(function(){
+                        $("*").show();  
+                       
+                    });
+                    
+                });
+            </script>
+                </head>
+                <body>
+                  <h2 class="test">this is Heading </h2>
+                  <h3 class="test"> This is actual beginning</h3>
+        
+                  <p>This is a paragraph shold hide.</p>
+                  <p>This is another paragraph.</p>
+        
+                 <button id="shiv">Click me to hide  paragraphs</button>
+                 <button id ="leela">Click me to show the paragraph</button>
+                 <br>
+                 <button id="3">click me to hide the class</button>
+                 <button id="4">click me to show the class</button>
+                 <br>
+                 <button id="5">click me to hide all</button>
+                 <button id="6">click me to show all</button>          </body>
+</html>
